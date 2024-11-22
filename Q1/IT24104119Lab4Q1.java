@@ -15,6 +15,6 @@ public class IT24104119Lab4Q1 {
             System.out.println("The number is Zero");
         }
 
-        scanner.close();
+    
     }
 }
