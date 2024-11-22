@@ -6,7 +6,7 @@ public class IT24104119Lab4Q2 {
 
         // Input exam marks
         System.out.print("Please enter exam marks (out of 100): ");
-        double examMarks = scanner.nextDouble();
+        int examMarks = scanner.nextInt();
         if (examMarks < 0 || examMarks > 100) {
             System.out.println("Invalid input for exam marks. Terminating program.");
             return;
@@ -14,7 +14,7 @@ public class IT24104119Lab4Q2 {
 
         // Input lab submission marks
         System.out.print("Please enter lab submission marks (out of 100): ");
-        double labMarks = scanner.nextDouble();
+        int labMarks = scanner.nextInt();
         if (labMarks < 0 || labMarks > 100) {
             System.out.println("Invalid input for lab submission marks. Terminating program.");
             return;
