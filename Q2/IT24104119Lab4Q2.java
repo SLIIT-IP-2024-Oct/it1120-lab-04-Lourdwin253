@@ -36,6 +36,6 @@ public class IT24104119Lab4Q2 {
 
         // Calculate the final mark
         double finalMark = (examMarks * examPercentage / 100) + (labMarks * labPercentage / 100);
-        System.out.printf("Final Exam Mark is: %.1f%n", finalMark);
+        System.out.printf("Final Exam Mark is:", finalMark);
     }
 }
